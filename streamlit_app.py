@@ -39,8 +39,6 @@ try:
       back_from_function = get_fruitvice_data(fruit_choice)
       streamlit.dataframe(back_from_function)
 
-expect URLError as e:
-  streamlit.error()
 
 streamlit.header("the fruit load list contains:")
 def get_fruit_load_list():
