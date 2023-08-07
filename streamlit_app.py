@@ -43,8 +43,6 @@ except URLError as e:
   Streamlit.error()
 
 
-#streamlit.stop();
-
 #import snowflake.connector
 streamlit.header("the fruit load list contains :")
 #snowflake-related functions
