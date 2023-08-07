@@ -39,6 +39,8 @@ try:
       back_from_function = get_fruitvice_data(fruit_choice)
       streamlit.dataframe(back_from_function)
 
+expect URLError as e:
+  streamlit.error()
 
 def insert_row_snowflake(new_fruit):
     with my_cnx.cursor() as my_cur:
